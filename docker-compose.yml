@@ -4,6 +4,6 @@ services:
     container_name: my-container-composer
     image: hello
     cpus: 1.5
-    mem_limits: 2048m
+    mem_limit: 2048m
     ports:
       - "8080:80"
